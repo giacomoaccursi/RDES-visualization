@@ -8,7 +8,6 @@ import os
 
 snapshot_dir = "step-snapshot"
 files = os.listdir(snapshot_dir)
-os.path.splitext(files[0])[0]
 
 for file in files: 
     file_name = os.path.splitext(file)[0]
